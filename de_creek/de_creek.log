@@ -260,3 +260,526 @@ Total triangle count: 15505
 Writing d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'd:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp', but we don't own that location. Allowing...
 23 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.vmf
+Map revision 35
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (241949 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 282 texinfos to 194
+Reduced 56 texdatas to 52 (1497 bytes to 1318)
+Writing d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+12 threads
+reading d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp
+reading d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.prt
+1627 portalclusters
+4993 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 138384 visible clusters (0.00%)
+Total clusters visible: 2173251
+Average clusters visible: 1335
+Building PAS...
+Average clusters audible: 1627
+visdatasize:674526  compressed from 676832
+writing d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp
+6158 faces
+1923464 square feet [276978912.00 square inches]
+6 Displacements
+14144 Square Feet [2036736.00 Square Inches]
+6158 patches before subdivision
+139892 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 29359849, max 1764
+transfer lists: 224.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(552552, 216992, 111069)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(98148, 24929, 16618)
+Build Patch/Sample Hash Table(s).....Done<0.0274 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                671/8192         8052/98304    ( 8.2%) 
+brushsides            4257/81920       34056/655360   ( 5.2%) 
+planes                1076/65536       21520/1310720  ( 1.6%) 
+vertexes              8208/65536       98496/786432   (12.5%) 
+nodes                 3243/65536      103776/2097152  ( 4.9%) 
+texinfos               194/12288       13968/884736   ( 1.6%) 
+texdata                 52/4096         1664/131072   ( 1.3%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples       21078/0           21078/0        ( 0.0%) 
+faces                 6158/65536      344848/3670016  ( 9.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2208/65536      123648/3670016  ( 3.4%) 
+facebrushes            978/0            1956/0        ( 0.0%) 
+facebrushlists        6158/0           24632/0        ( 0.0%) 
+leaves                3247/65536      103904/2097152  ( 5.0%) 
+leaffaces             6969/65536       13938/131072   (10.6%) 
+leafbrushes           2042/65536        4084/131072   ( 3.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            37502/512000     150008/2048000  ( 7.3%) 
+edges                20948/256000      83792/1024000  ( 8.2%) 
+LDR worldlights         10/8192         1000/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            525/32768        5250/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7899/65536       15798/131072   (12.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                58/1024        20416/360448   ( 5.7%) 
+LDR lightdata         [variable]     6522640/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      674526/16777216 ( 4.0%) 
+entdata               [variable]        9727/393216   ( 2.5%) 
+LDR ambient table     3247/65536       12988/262144   ( 5.0%) 
+HDR ambient table     3247/65536       12988/262144   ( 5.0%) 
+LDR leaf ambient     16984/65536      475552/1835008  (25.9%) 
+HDR leaf ambient      3247/65536       90916/1835008  ( 5.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/15196    ( 0.0%) 
+pakfile               [variable]     1297339/0        ( 0.0%) 
+physics               [variable]      241949/4194304  ( 5.8%) 
+physics terrain       [variable]        1386/1048576  ( 0.1%) 
+
+Level flags = 7d
+
+Total triangle count: 16415
+Writing d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp', but we don't own that location. Allowing...
+24 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.vmf
+Map revision 36
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (242733 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 285 texinfos to 196
+Reduced 57 texdatas to 53 (1512 bytes to 1333)
+Writing d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+12 threads
+reading d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp
+reading d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.prt
+1627 portalclusters
+4993 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 138384 visible clusters (0.00%)
+Total clusters visible: 2173251
+Average clusters visible: 1335
+Building PAS...
+Average clusters audible: 1627
+visdatasize:674526  compressed from 676832
+writing d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp
+6158 faces
+1923464 square feet [276978912.00 square inches]
+6 Displacements
+14144 Square Feet [2036736.00 Square Inches]
+6158 patches before subdivision
+139892 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 29359849, max 1764
+transfer lists: 224.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(552552, 216992, 111069)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(98148, 24929, 16618)
+Build Patch/Sample Hash Table(s).....Done<0.0275 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                672/8192         8064/98304    ( 8.2%) 
+brushsides            4263/81920       34104/655360   ( 5.2%) 
+planes                1076/65536       21520/1310720  ( 1.6%) 
+vertexes              8208/65536       98496/786432   (12.5%) 
+nodes                 3243/65536      103776/2097152  ( 4.9%) 
+texinfos               196/12288       14112/884736   ( 1.6%) 
+texdata                 53/4096         1696/131072   ( 1.3%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples       21078/0           21078/0        ( 0.0%) 
+faces                 6158/65536      344848/3670016  ( 9.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2208/65536      123648/3670016  ( 3.4%) 
+facebrushes            978/0            1956/0        ( 0.0%) 
+facebrushlists        6158/0           24632/0        ( 0.0%) 
+leaves                3247/65536      103904/2097152  ( 5.0%) 
+leaffaces             6969/65536       13938/131072   (10.6%) 
+leafbrushes           2044/65536        4088/131072   ( 3.1%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            37502/512000     150008/2048000  ( 7.3%) 
+edges                20948/256000      83792/1024000  ( 8.2%) 
+LDR worldlights         10/8192         1000/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            525/32768        5250/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7899/65536       15798/131072   (12.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                58/1024        20416/360448   ( 5.7%) 
+LDR lightdata         [variable]     6522640/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      674526/16777216 ( 4.0%) 
+entdata               [variable]        9727/393216   ( 2.5%) 
+LDR ambient table     3247/65536       12988/262144   ( 5.0%) 
+HDR ambient table     3247/65536       12988/262144   ( 5.0%) 
+LDR leaf ambient     16984/65536      475552/1835008  (25.9%) 
+HDR leaf ambient      3247/65536       90916/1835008  ( 5.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/15196    ( 0.0%) 
+pakfile               [variable]     1297339/0        ( 0.0%) 
+physics               [variable]      242733/4194304  ( 5.8%) 
+physics terrain       [variable]        1386/1048576  ( 0.1%) 
+
+Level flags = 7d
+
+Total triangle count: 16415
+Writing d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp', but we don't own that location. Allowing...
+25 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.vmf
+Map revision 37
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (241418 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 293 texinfos to 187
+Reduced 58 texdatas to 52 (1645 bytes to 1469)
+Writing d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+12 threads
+reading d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp
+reading d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.prt
+1476 portalclusters
+4526 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 113908 visible clusters (0.00%)
+Total clusters visible: 1668246
+Average clusters visible: 1130
+Building PAS...
+Average clusters audible: 1476
+visdatasize:551440  compressed from 566784
+writing d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp
+5658 faces
+1735706 square feet [249941760.00 square inches]
+6 Displacements
+14144 Square Feet [2036736.00 Square Inches]
+5658 patches before subdivision
+117556 patches after subdivision
+10 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 23780292, max 1621
+transfer lists: 181.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(145619, 78545, 49715)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(16843, 8081, 4745)
+Build Patch/Sample Hash Table(s).....Done<0.0239 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                670/8192         8040/98304    ( 8.2%) 
+brushsides            4251/81920       34008/655360   ( 5.2%) 
+planes                1074/65536       21480/1310720  ( 1.6%) 
+vertexes              7752/65536       93024/786432   (11.8%) 
+nodes                 2979/65536       95328/2097152  ( 4.5%) 
+texinfos               187/12288       13464/884736   ( 1.5%) 
+texdata                 52/4096         1664/131072   ( 1.3%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples       21078/0           21078/0        ( 0.0%) 
+faces                 5658/65536      316848/3670016  ( 8.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2158/65536      120848/3670016  ( 3.3%) 
+facebrushes            869/0            1738/0        ( 0.0%) 
+facebrushlists        5658/0           22632/0        ( 0.0%) 
+leaves                2983/65536       95456/2097152  ( 4.6%) 
+leaffaces             6271/65536       12542/131072   ( 9.6%) 
+leafbrushes           1931/65536        3862/131072   ( 2.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            34949/512000     139796/2048000  ( 6.8%) 
+edges                19639/256000      78556/1024000  ( 7.7%) 
+LDR worldlights         10/8192         1000/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            445/32768        4450/327680   ( 1.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6813/65536       13626/131072   (10.4%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                58/1024        20416/360448   ( 5.7%) 
+LDR lightdata         [variable]     5568892/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      551440/16777216 ( 3.3%) 
+entdata               [variable]        9770/393216   ( 2.5%) 
+LDR ambient table     2983/65536       11932/262144   ( 4.6%) 
+HDR ambient table     2983/65536       11932/262144   ( 4.6%) 
+LDR leaf ambient     16260/65536      455280/1835008  (24.8%) 
+HDR leaf ambient      2983/65536       83524/1835008  ( 4.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/15162    ( 0.0%) 
+pakfile               [variable]     1298147/0        ( 0.0%) 
+physics               [variable]      241418/4194304  ( 5.8%) 
+physics terrain       [variable]        1386/1048576  ( 0.1%) 
+
+Level flags = 7d
+
+Total triangle count: 15061
+Writing d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp', but we don't own that location. Allowing...
+21 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.vmf
+Map revision 40
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (240746 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 301 texinfos to 191
+Reduced 59 texdatas to 53 (1670 bytes to 1494)
+Writing d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+12 threads
+reading d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp
+reading d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.prt
+1481 portalclusters
+4554 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 113093 visible clusters (0.00%)
+Total clusters visible: 1698092
+Average clusters visible: 1146
+Building PAS...
+Average clusters audible: 1481
+visdatasize:556955  compressed from 568704
+writing d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp
+5722 faces
+1784812 square feet [257012992.00 square inches]
+18 Displacements
+15964 Square Feet [2298880.00 Square Inches]
+5722 patches before subdivision
+122212 patches after subdivision
+12 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 24128297, max 1660
+transfer lists: 184.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(151610, 87317, 59290)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(17346, 9068, 5746)
+Build Patch/Sample Hash Table(s).....Done<0.0246 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   3/1024          144/49152    ( 0.3%) 
+brushes                668/8192         8016/98304    ( 8.2%) 
+brushsides            4239/81920       33912/655360   ( 5.2%) 
+planes                1074/65536       21480/1310720  ( 1.6%) 
+vertexes              7815/65536       93780/786432   (11.9%) 
+nodes                 2984/65536       95488/2097152  ( 4.6%) 
+texinfos               191/12288       13752/884736   ( 1.6%) 
+texdata                 53/4096         1696/131072   ( 1.3%) 
+dispinfos               18/0            3168/0        ( 0.0%) 
+disp_verts            2706/0           54120/0        ( 0.0%) 
+disp_tris             4608/0            9216/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples       27094/0           27094/0        ( 0.0%) 
+faces                 5722/65536      320432/3670016  ( 8.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2171/65536      121576/3670016  ( 3.3%) 
+facebrushes            894/0            1788/0        ( 0.0%) 
+facebrushlists        5722/0           22888/0        ( 0.0%) 
+leaves                2988/65536       95616/2097152  ( 4.6%) 
+leaffaces             6324/65536       12648/131072   ( 9.6%) 
+leafbrushes           1922/65536        3844/131072   ( 2.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            35300/512000     141200/2048000  ( 6.9%) 
+edges                19802/256000      79208/1024000  ( 7.7%) 
+LDR worldlights         12/8192         1200/819200   ( 0.1%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            447/32768        4470/327680   ( 1.4%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6825/65536       13650/131072   (10.4%) 
+cubemapsamples           1/1024           16/16384    ( 0.1%) 
+overlays                58/1024        20416/360448   ( 5.7%) 
+LDR lightdata         [variable]     5826748/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      556955/16777216 ( 3.3%) 
+entdata               [variable]       10420/393216   ( 2.6%) 
+LDR ambient table     2988/65536       11952/262144   ( 4.6%) 
+HDR ambient table     2988/65536       11952/262144   ( 4.6%) 
+LDR leaf ambient     16231/65536      454468/1835008  (24.8%) 
+HDR leaf ambient      2988/65536       83664/1835008  ( 4.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/15330    ( 0.0%) 
+pakfile               [variable]     1303459/0        ( 0.0%) 
+physics               [variable]      240746/4194304  ( 5.7%) 
+physics terrain       [variable]        2204/1048576  ( 0.2%) 
+
+Level flags = 7d
+
+Total triangle count: 15232
+Writing d:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\dropbox\documents\github\csgo-maps\de_creek\de_creek.bsp', but we don't own that location. Allowing...
+22 seconds elapsed
