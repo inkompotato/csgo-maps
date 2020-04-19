@@ -28,8 +28,12 @@ The lower part contains the creek, which changes to an underground canal below t
 
 The first building stands in the center of the map and is largely static. You can enter an apartment via the balconies, which might be a nice spot for saving. 
 
-![](.\devblog\20-04-19\balcony.jpg)
+![](./devblog/20-04-19/balcony.jpg)
 
 The main apartment building contains a hallway that connects the A and B site. You can enter from the station and A site. There is also a window that allows you to look out mid.
 
-![](.\devblog\20-04-19\main_aps.jpg)
+![](./devblog/20-04-19/main_aps.jpg)
+
+* Building the station and B Site
+
+coming soon
