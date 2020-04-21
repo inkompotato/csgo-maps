@@ -34,6 +34,13 @@ The main apartment building contains a hallway that connects the A and B site. Y
 
 ![](./devblog/20-04-19/main_aps.jpg)
 
-* Building the station and B Site
+* Finishing Main Apartment Building
 
-coming soon
+The lower floor contains a bank while the upper floors are apartments and offices. The elevator is out of service.
+
+![](./devblog/20-04-21/bank.jpg)
+
+The station is waiting for the next train to arrive. The station platform will also be home to bombsite B. 
+
+![](./devblog/20-04-21/station.jpg)
+
