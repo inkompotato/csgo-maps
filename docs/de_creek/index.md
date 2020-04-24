@@ -57,3 +57,7 @@ The site sits in front of the toilets. Freight trains are blocking the platforms
 Meanwhile a tree has grown on the roundabout, the rest of A still needs considerable development:
 
 ![](./devblog/20-04-22/tree.jpg)
+
+The Map as a whole currently looks like this:
+
+![](./devblog/20-04-24/overview.jpg)
